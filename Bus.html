@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body{
+             
+	     }
+        .img1{position:absolute;
+             height:530px;}
+	.img2{position:absolute; right:0px;
+             height:530px;}
+        .outline{
+         width:1510px; height:690px;
+	 border:5px solid black;
+         position:relative;
+	 }
+         .holding-bus-div{width:600px;height:300px;
+		         position:relative;
+                         margin:0 auto; top:250px;
+                         animation:moveforward 5s;
+			 animation-delay:2s;
+			 }
+	  @keyframes moveforward{
+		  from{left:-1000px;}
+		  to{left:400px;}
+		}
+         .bus{
+	   background-color:deeppink;
+	   height:200px; width:600px;
+	   border-radius:35px 200px 30px 30px;
+	   position:relative;
+           margin:0 auto;
+          
+           box-shadow:inset 0px 0px 10px 5px;
+           }
+          
+	 .div-wheel-1,.div-wheel-2{border:none;
+	     height:70px; width:70px;
+	     background-color:darkslategray;
+	     position:absolute;
+	     border-radius:100px 100px 100px 100px;
+             box-shadow:inset 0px 0px 10px 10px;}
+
+         .div-inside-wheel-1,.div-inside-wheel-2{position:absolute;
+                     height:25px;width:25px;border:2px solid white;
+                     border-radius:100px;100px100px;100px;}
+	 .div-inside-wheel-1{top:200px; left:50px;}
+         .div-inside-wheel-2{top:200px; left:500px;}
+
+         .div-wheel-1{margin:0 auto; top:180px;left:30px;}
+          
+         .div-wheel-2{margin:0 auto; top:180px; left:480px;}
+          
+         .div-window1,.div-window2,.div-window3,.div-window4,.div-window5
+              {
+		height:100px; width:90px;
+                position:absolute;
+                border:5px inset white;
+                background-color:lightgreen;
+		box-shadow:inset 0px 0px 20px 10px grey;
+		}
+      
+          .div-window1{top:50px; left:40px; border-radius:30px 30px 20px 20px;}
+          .div-window2{top:50px; left:150px; border-radius:30px 30px 20px 20px;}
+          .div-window3{top:50px; left:260px; border-radius:30px 30px 20px 20px;}
+	  .div-window4{top:50px; left:370px; border-radius:30px 30px 20px 20px;}
+	  .div-window5{top:50px; left:480px; border-radius:30px 90px 20px 20px;}
+
+	  .p1,.p2,.p3,.p4,.p5{text-align:center; font-family:Arial;font-size:40px;}
+          .p5{font-size:30px;} 
+
+	  .light-1,.light-2{height:30px;width:15px;
+		   background-color:yellow;
+                   position:absolute;left:-15px;
+		   border-radius:125px 0px 0px 125px;
+		   box-shadow:0px 0px 20px 10px orange ;}
+	  .light-1{top:130px;}
+	  .light-2{top:50px;}
+
+          .footer{position:absolute;bottom:0px;width:1510px;height:160px;background-color:green;
+                  box-shadow:inset 0px 0px 80px 0px;}
+    </style>
+  </head>
+
+  <body>
+       <div class="outline">
+          <img class="img1" src="images/cc21485eb788873ea631cdaf87b69c29.jpg" alt"scenery">
+	  <img class="img2" src="images/cc21485eb788873ea631cdaf87b69c29.jpg" alt"scenery">
+    	     <div class="holding-bus-div">
+	       <div class="bus">
+                 <div class="div-window1">
+	           <p class="p1">&#128105;</p>
+                 </div>
+	         <div class="div-window2">
+                   <p class="p2">&#128102; </p>
+                 </div>
+                 <div class="div-window3">
+	           <p class="p3">&#128102;</p>
+                 </div>
+	         <div class="div-window4">
+	           <p class="p4">&#128113;</p>
+	         </div>
+	         <div class="div-window5">
+	          <p class="p5">HTML <br />CSS</p>
+	         </div>
+        </div>
+	<div class="div-wheel-1"></div>
+          <div class="div-inside-wheel-1"></div>
+        <div class="div-wheel-2"></div>
+          <div class="div-inside-wheel-2"></div>
+
+        <div class="light-1"></div>
+        <div class="light-2"></div>
+     </div>
+     <div class="footer"></div>
+      
+<!--  
+         
+	<div class="footer"> 
+        <div class="div-1"></div>
+        <div class="div-2"></div>
+	<div class="div-3"></div>
+	<div class="div-4"></div>
+        <div class="div-5"></div>
+	<div class="div-6"></div>
+        <div class="div-7"></div>
+        <div class="div-8"></div>
+	<div class="div-9"></div>
+        <div class="div-10"></div>
+        <div class="div-11"></div>
+	<div class="div-12"></div>
+        <div class="div-13"></div>
+	<div class="div-14"></div>
+      </div>
+	 
+	
+       
+-->
+  </body>
+</html>
